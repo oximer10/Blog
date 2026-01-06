@@ -59,25 +59,24 @@ http://127.0.0.1:8000/
 ## 📂 Структура проекта
 
 project_name/
-    project_name/
-        __init__.py
-        settings.py
-        urls.py
-        wsgi.py
-    app_name/
-        __init__.py
-        forms.py          # форма пользователя
-        views.py          # логика обработки формы
-        models.py
-        admin.py
-        apps.py
-        templates/
-            form.html    # HTML-шаблон формы
-        migrations/
-            __init__.py
-    manage.py
-    requirements.txt
-
+├── project_name/
+│   ├── __init__.py
+│   ├── settings.py
+│   ├── urls.py
+│   └── wsgi.py
+├── app_name/
+│   ├── __init__.py
+│   ├── forms.py          # форма пользователя
+│   ├── views.py          # логика обработки формы
+│   ├── models.py
+│   ├── admin.py
+│   ├── apps.py
+│   ├── templates/
+│   │   └── form.html     # HTML-шаблон формы
+│   └── migrations/
+│       └── __init__.py
+├── manage.py
+└── requirements.txt
 
 ⚡ Использование
 Откройте страницу с формой
